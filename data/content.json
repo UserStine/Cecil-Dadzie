@@ -1,0 +1,223 @@
+{
+  "site": {
+    "name": "Cecil Dadzie",
+    "linkedin": "https://www.linkedin.com/in/cecildadzie/",
+    "headline": "Ideas that move people. Work that matters.",
+    "intro": "Strategic communications, development advocacy, project management and knowledge sharing."
+  },
+  "areas": [
+    {
+      "number": "01",
+      "slug": "strategic-communications",
+      "title": "Strategic communications",
+      "description": "Clear messages and purposeful narratives that connect people, organisations and ideas.",
+      "tag": "COMMUNICATION",
+      "details": "Editorial strategy, public relations, media engagement, reputation, brand messaging, crisis communication and audience-centred storytelling."
+    },
+    {
+      "number": "02",
+      "slug": "project-management",
+      "title": "Project management",
+      "description": "Structured planning, stakeholder engagement and thoughtful execution.",
+      "tag": "DELIVERY",
+      "details": "Programme coordination, planning, stakeholder mapping, project documentation and collaborative delivery across multidisciplinary teams."
+    },
+    {
+      "number": "03",
+      "slug": "development-advocacy",
+      "title": "Development & advocacy",
+      "description": "Human-centred initiatives, meaningful participation and long-term social progress.",
+      "tag": "IMPACT",
+      "details": "Youth participation, community development, policy dialogue, rights-based communication, mentorship and development-focused advocacy."
+    },
+    {
+      "number": "04",
+      "slug": "knowledge-management",
+      "title": "Knowledge management",
+      "description": "Turning information, evidence and shared experience into better decisions.",
+      "tag": "KNOWLEDGE",
+      "details": "Research synthesis, organisational learning, documentation, insight sharing and knowledge products designed for practical decision-making."
+    }
+  ],
+  "projects": [
+    {
+      "no": "01",
+      "slug": "youth-voices",
+      "category": "ADVOCACY & LEADERSHIP",
+      "title": "Youth voices in development",
+      "subtitle": "Youth Advisory Panel · UNFPA Ghana",
+      "image": "/media/youth-panel-group.png",
+      "status": "Experience spotlight"
+    },
+    {
+      "no": "02",
+      "slug": "curious-minds",
+      "category": "MENTORSHIP & COMMUNITY",
+      "title": "Creating room for curious minds",
+      "subtitle": "Curious Minds Ghana",
+      "image": "/media/curious-minds-yellow.png",
+      "status": "Experience spotlight"
+    },
+    {
+      "no": "03",
+      "slug": "communications",
+      "category": "COMMUNICATIONS",
+      "title": "Making complex ideas connect",
+      "subtitle": "Strategic communications practice",
+      "image": "/media/fellowship-speaking.png",
+      "status": "Practice area"
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Business and Integrated Development Studies (UBIDS)",
+      "degree": "MSc · Project Management and Community Development",
+      "date": "Sep 2024 — Nov 2025",
+      "notes": "Grade 3.92"
+    },
+    {
+      "school": "University of Media, Arts and Communication",
+      "degree": "MA · Strategic Public Relations Management",
+      "date": "Jan 2023 — Jan 2024",
+      "notes": "Grade 3.33"
+    },
+    {
+      "school": "Ghana Institute of Journalism",
+      "degree": "BA · Public Relations, Advertising and Applied Communication",
+      "date": "Sep 2018 — Oct 2022"
+    },
+    {
+      "school": "Ghana Institute of Management and Public Administration (GIMPA)",
+      "degree": "MA · International Relations and Diplomacy",
+      "date": "Sep 2026 — Present"
+    },
+    {
+      "school": "Cambridge Center of Excellence",
+      "degree": "Certificate · Project Management",
+      "date": "Jan 2022 — Jun 2022"
+    },
+    {
+      "school": "Udacity",
+      "degree": "Nanodegree · Digital Marketing",
+      "date": "Nov 2021 — Feb 2022"
+    },
+    {
+      "school": "University of Ghana",
+      "degree": "Adolescent Sexual and Reproductive Health Programming",
+      "date": "2016"
+    },
+    {
+      "school": "Shaw Academy",
+      "degree": "Photography · Diploma",
+      "date": "2016"
+    },
+    {
+      "school": "International Business Management Institute (IBMI)",
+      "degree": "Certificate · Marketing and Communications",
+      "date": "Feb 2022 — Present"
+    },
+    {
+      "school": "International Business Management Institute (IBMI)",
+      "degree": "Certificate · Project Management",
+      "date": "Feb 2022 — Present"
+    },
+    {
+      "school": "Salem Secondary School, Osu Kuku Hill",
+      "degree": "WASSCE · General Arts",
+      "date": "Aug 2004 — Sep 2007"
+    }
+  ],
+  "volunteering": [
+    {
+      "role": "Advocate & Mentor",
+      "org": "Curious Minds Ghana",
+      "year": "Sep 2009 — Present",
+      "notes": "Human rights"
+    },
+    {
+      "role": "Member & Chairman of the Youth Advisory Panel",
+      "org": "UNFPA Ghana",
+      "year": "Oct 2010 — Sep 2012",
+      "notes": "Human rights"
+    },
+    {
+      "role": "Member, Youth Advisory Board",
+      "org": "Planned Parenthood Association of Ghana",
+      "year": "Jul 2011 — Aug 2013",
+      "notes": "Health"
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Institute of Public Relations (IPR), Ghana",
+      "role": "Member",
+      "date": "Dec 2023 — Present"
+    },
+    {
+      "name": "International Communication Association",
+      "role": "Member",
+      "date": "Mar 2022 — Present"
+    },
+    {
+      "name": "Curious Minds Ghana",
+      "role": "Development Advocate",
+      "date": "Sep 2008 — Present"
+    }
+  ],
+  "publications": [
+    {
+      "title": "What resilient brands do differently with social media backlash",
+      "date": "31 March 2026",
+      "publisher": "Business & Financial Times",
+      "byline": "Co-authored with Favour Egbogun",
+      "image": "/media/article-resilient-brands.png",
+      "summary": "Brand trust, listening and effective responses to public criticism."
+    },
+    {
+      "title": "Why NGOs must stop treating communication as an afterthought",
+      "date": "18 February 2026",
+      "publisher": "Business & Financial Times",
+      "byline": "Co-authored with Sarah Asare-Darko",
+      "image": "/media/article-ngo-communications.png",
+      "summary": "Why communications belongs at the heart of programme planning."
+    },
+    {
+      "title": "Ghana must raise the bar in political communication",
+      "date": "17 September 2025",
+      "publisher": "Daily Graphic",
+      "byline": "By Cecil Dadzie",
+      "image": "/media/article-political-communication.png",
+      "summary": "Making political dialogue more respectful, informed and accountable."
+    },
+    {
+      "title": "Clippers and conversations: communication lessons from my barber",
+      "date": "Date to confirm",
+      "publisher": "Newspaper feature",
+      "byline": "By Cecil Ato Kwamena Dadzie",
+      "image": "/media/article-clippers-conversations.png",
+      "summary": "Lessons about listening, consistency, trust, and personalisation from everyday conversations."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certificate · Project Management",
+      "issuer": "Cambridge Center of Excellence"
+    },
+    {
+      "name": "Digital Marketing Nanodegree",
+      "issuer": "Udacity"
+    },
+    {
+      "name": "Certificate · Marketing and Communications",
+      "issuer": "IBMI"
+    },
+    {
+      "name": "Certificate · Project Management",
+      "issuer": "IBMI"
+    },
+    {
+      "name": "Diploma · Photography",
+      "issuer": "Shaw Academy"
+    }
+  ]
+}

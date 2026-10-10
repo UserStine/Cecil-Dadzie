@@ -1,0 +1,5 @@
+import {notFound} from 'next/navigation';
+import Link from 'next/link';
+import {getContent} from '../../../lib/content';
+export const dynamic='force-dynamic';
+export default async function ExpertiseDetail({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const content=await getContent();const item=content.areas.find(a=>a.slug===slug);if(!item)notFound();return <main className="detail-page"><header><Link href="/">← CECIL DADZIE</Link><a href={content.site.linkedin} target="_blank" rel="noopener noreferrer">CONNECT ON LINKEDIN ↗</a></header><div className="detail-content"><span>EXPERTISE / {item.number}</span><h1>{item.title}</h1><p className="detail-lead">{item.description}</p><div className="detail-divider"/><h2>Areas of practice</h2><p>{item.details}</p><p className="detail-note">This overview describes the practice area; individual examples and outcomes will be added after verification.</p><Link className="detail-cta" href="/#expertise">← ALL EXPERTISE</Link></div></main>}
