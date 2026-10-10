@@ -172,3 +172,14 @@ img,video,svg{max-width:100%}
 .projects-grid .project-card:hover .project-corner,.projects-grid .project-card:focus-within .project-corner {transform:none!important;background:#dfb18b;}
 .projects-grid .project-card:focus-within .project-image {outline:2px solid #a8765a;outline-offset:3px;}
 @media(max-width:520px){.projects-grid .project-counter{left:12px;top:12px;padding:8px 11px}.projects-grid .project-corner{right:12px;top:12px;width:38px!important;height:38px!important}}
+
+/* Hide green icons and extra icons on mobile view */
+@media(max-width:760px){
+  .circle-arrow,
+  .arrow-chip,
+  .hero-side-note .side-icon,
+  .hero-bottom .hero-actions .text-link svg,
+  .hero-bottom .hero-actions .pill-link .circle-arrow {
+    display:none !important;
+  }
+}
