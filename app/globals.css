@@ -173,13 +173,11 @@ img,video,svg{max-width:100%}
 .projects-grid .project-card:focus-within .project-image {outline:2px solid #a8765a;outline-offset:3px;}
 @media(max-width:520px){.projects-grid .project-counter{left:12px;top:12px;padding:8px 11px}.projects-grid .project-corner{right:12px;top:12px;width:38px!important;height:38px!important}}
 
-/* Hide green icons and extra icons on mobile view */
-@media(max-width:760px){
-  .circle-arrow,
-  .arrow-chip,
-  .hero-side-note .side-icon,
-  .hero-bottom .hero-actions .text-link svg,
-  .hero-bottom .hero-actions .pill-link .circle-arrow {
-    display:none !important;
-  }
-}
+/* Consistent cocoa-brown line icons, including mobile publication links. */
+.publication-view{display:inline-flex!important;align-items:center;justify-content:center;gap:9px;white-space:nowrap;color:#493126!important;}
+.feature-arrow-icon{display:inline-block!important;flex:0 0 auto;color:#75513b;stroke:#75513b;vertical-align:middle;transform:none!important;}
+.journey-choice-arrow{display:inline-flex;align-items:center;justify-content:center;color:inherit;}
+.scroll-arrow-icon{display:inline-block;transform:rotate(90deg);color:#77513b;}
+.footer-line>a:last-child,.detail-page header a,.detail-cta,.cms-login>a,.cms-entry-action{display:inline-flex;align-items:center;gap:7px;}
+.cms-entry-action svg,.cms-login>a svg,.detail-page header svg,.detail-cta svg{color:#805940;stroke-width:1.8;}
+@media(max-width:760px){.publication-view{font-size:12px;gap:7px;padding:12px 15px;max-width:calc(100% - 24px)}.publication-view .feature-arrow-icon{width:16px;height:16px}.journey-choice-arrow svg{width:17px;height:17px}}
