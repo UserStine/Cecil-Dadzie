@@ -58,7 +58,7 @@ function JourneyCards({education,volunteering,certifications,affiliations}:{educ
 function ProjectCard({project,index}:{project:PortfolioContent["projects"][number],index:number}){
  return <article className="project-card">
   <a aria-label={`Explore ${project.title}`} href={`/work/${project.slug}`} className="project-image" >
-   <img className="project-cover-img" src={project.image} alt={project.title} onError={e=>{const target=e.currentTarget;const fallback=["/media/youth-panel-group.png","/media/curious-minds-yellow.png","/media/fellowship-speaking.png"][index] || "/media/cecil-speaking-presentation.png";if(!target.src.endsWith(fallback))target.src=fallback}}/><span className="project-counter">{project.no} / 03</span><span className="project-corner"><ArrowUpRight size={18}/></span>
+   <img className="project-cover-img" src={project.image} alt={project.title} onError={e=>{const target=e.currentTarget;const fallback=["/media/youth-panel-group.png","/media/curious-minds-yellow.png","/media/fellowship-speaking.png"][index] || "/media/cecil-speaking-presentation.png";if(!target.src.endsWith(fallback))target.src=fallback}}/><span className="project-counter">{project.no} / 03</span><span className="row-arrow"><ArrowUpRight size={18}/></span>
  
   </a>
   <div className="project-meta"><span>{project.category}</span><span>{project.status}</span></div><h3>{project.title}</h3><p>{project.subtitle}</p>
