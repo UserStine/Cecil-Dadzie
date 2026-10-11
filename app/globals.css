@@ -181,3 +181,10 @@ img,video,svg{max-width:100%}
 .footer-line>a:last-child,.detail-page header a,.detail-cta,.cms-login>a,.cms-entry-action{display:inline-flex;align-items:center;gap:7px;}
 .cms-entry-action svg,.cms-login>a svg,.detail-page header svg,.detail-cta svg{color:#805940;stroke-width:1.8;}
 @media(max-width:760px){.publication-view{font-size:12px;gap:7px;padding:12px 15px;max-width:calc(100% - 24px)}.publication-view .feature-arrow-icon{width:16px;height:16px}.journey-choice-arrow svg{width:17px;height:17px}}
+
+/* Mobile navigation: match the Cecil Dadzie espresso palette. */
+.mobile-menu{color:#33231e;cursor:pointer}
+.mobile-menu svg{width:24px;height:24px;stroke:#33231e;stroke-width:2;fill:none}
+.mobile-menu:hover,.mobile-menu:focus-visible{color:#8d634b}
+.mobile-menu:hover svg,.mobile-menu:focus-visible svg{stroke:#8d634b}
+@media(max-width:760px){.mobile-menu{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;flex-shrink:0}}
